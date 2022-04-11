@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamburger Menu</title>
+    <link rel="stylesheet" href="hamburger.css">
+</head>
+<body>
+    <nav>
+        <div class="log">
+            <h1>Rahul Chouhan</h1>
+        </div>
+        <div class="openMenu"><ion-icon name="menu-outline"></ion-icon></div>
+        <ul class="mainMenu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Product</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">About</a></li>
+            <div class="closeMenu"><span class="fa fa-times">X</span></div>
+            <span class="icons">
+                <ion-icon name="logo-facebook" class="ii facebook"></ion-icon>
+                <ion-icon name="logo-instagram" class="ii instagram"></ion-icon>
+                <ion-icon name="logo-twitter" class="ii twitter"></ion-icon>
+                <ion-icon name="logo-pinterest" class="ii pinterest"></ion-icon>
+            </span>
+        </ul>
+    </nav>
+
+
+ <script>
+     const mainMenu = document.querySelector('.mainMenu');
+const closeMenu = document.querySelector('.closeMenu');
+const openMenu = document.querySelector('.openMenu');
+
+
+
+
+openMenu.addEventListener('click',show);
+closeMenu.addEventListener('click',close);
+
+function show(){
+    mainMenu.style.display = 'flex';
+    mainMenu.style.top = '0';
+}
+function close(){
+    mainMenu.style.top = '-100%';
+}
+ </script>
+
+
+
+
+
+
+
+
+
+
+
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    
+</body>
+</html>
