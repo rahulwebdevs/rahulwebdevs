@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+*{
+    margin:0 0;
+    padding: 0 0;
+    box-sizing: border-box;
+    font-family: 'roboto';
+}
+:root{
+    --bg-red:#f01327;
+    --txt-gray:#808081;
+
+}
+html{
+    font-size: 62.5%;
+}
+/* universal code  */
+.all-padding{
+   padding: 0 8%;
+   position: relative
+}
+#circle{
+    width: 12rem;
+    height: 12rem;
+    border-radius: 50%;
+    background-color:rgb(10, 211, 233);
+    position: absolute;
+    right:38rem;
+    top: 50rem;
+    z-index: 10000;
+}
+/* universal code end  */
+/* navbar start  */
+#logo{
+   font-size: 3rem;
+   padding-left: 2rem;
+}
+/* navbar end  */
+
+/* main hero section start  */
+main{
+    border: 1px solid red;
+    background-color: var(--bg-red);
+}
+#hero-section{
+   display: flex;
+   justify-content: space-between;
+   padding-top: 5%;
+    
+}
+/* left section start  */
+.left-section{
+    border: 1px solid red;
+    flex-basis: 60%;
+    
+}
+.left-section .carWash{
+    font-size: 5.5vw;
+    font-weight: 500;
+    color: #fff;
+    line-height: 1;
+    margin-bottom: 2rem;
+}
+.left-section .carWash-para,.left-section .imageFromGoogle{
+    font-size: 1.5vw;
+    width: 80%;
+    color:#fff;
+    word-spacing: .2rem;
+}
+.left-section .btn-learn-more{
+    padding:1.3rem 6rem;
+    font-size: 2rem;
+    text-transform: uppercase;
+    word-spacing: .5rem;
+    font-weight: 500;
+    border: 2px solid #fff;
+    background-color: var(--bg-red);
+    color: #fff;
+    margin-top: 2rem;
+
+}
+/* left section end  */
+/* right section start  */
+.right-section{
+    border: 1px solid red;
+    flex-basis: 40%;
+}
+.right-section div img{
+    height: 40vw;
+    width: 40vw;
+    border: 1rem solid rgb(243, 228, 228);
+    border-radius: 50%;
+}
+
+/* right section end  */
+/* main hero section end  */
