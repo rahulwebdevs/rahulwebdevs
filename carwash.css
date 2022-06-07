@@ -1,0 +1,567 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+*{
+    margin:0 0;
+    padding: 0 0;
+    box-sizing: border-box;
+    font-family: 'roboto';
+    /* border: .2px solid red; */
+}
+:root{
+    --bg-red:#f01327;
+    --txt-gray:#808081;
+    --bg-blck:#292d33;
+
+}
+html{
+    font-size: 62.5%;
+}
+/* universal code  */
+.all-padding{
+   padding: 0 8%;
+}
+#circle{
+    width: 12rem;
+    height: 12rem;
+    border-radius: 50%;
+    background-color:var(--bg-red);
+    position: absolute;
+    /* right:30rem;
+    top: 43rem; */
+    bottom: -6rem;
+    right: 50%;
+    z-index: 10000;
+}
+/* universal code end  */
+/* navbar start  */
+#logo{
+   font-size: 3rem;
+   padding-left: 2rem;
+}
+/* navbar end  */
+
+/* main hero section start  */
+main{
+    background-color: var(--bg-red);
+}
+#hero-section{
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   padding-top: 5%;
+    
+}
+/* left section start  */
+.left-section{
+   
+    flex-basis: 50%;
+    
+}
+.left-section .carWash{
+    font-size: 5.5vw;
+    font-weight: 500;
+    color: #fff;
+    line-height: 1;
+    margin-bottom: 2rem;
+}
+.left-section .carWash-para,.left-section .imageFromGoogle{
+    font-size: 1.5vw;
+    width: 80%;
+    color:#fff;
+    word-spacing: .2rem;
+}
+.left-section .btn-learn-more{
+    padding:1.3rem 6rem;
+    font-size: 2rem;
+    text-transform: uppercase;
+    word-spacing: .5rem;
+    font-weight: 500;
+    border: 2px solid #fff;
+    background-color: var(--bg-red);
+    color: #fff;
+    margin-top: 2rem;
+
+}
+/* left section end  */
+/* right section start  */
+.right-section{
+    flex-basis: 40%;
+    position: relative;
+}
+.right-section div img{
+    height: 40vw;
+    width: 40vw;
+    border: 1rem solid rgb(243, 228, 228);
+    border-radius: 50%;
+}
+
+/* right section end  */
+/* main hero section end  */
+
+/* innovative car system start  */
+.innovative-car{
+    margin-top: 10rem;
+}
+.innovative-car-info{
+    display: flex;
+    justify-content: space-between;
+
+}
+/* left section start  */
+.innovative-car-left{
+    flex-basis: 60%;
+    position: relative;
+}
+.second-circle{
+    height: 10vw;
+    width: 10vw;
+    background-color: var(--bg-red);
+    border-radius: 50%;
+    position:absolute;
+    top: 0;
+    left: 0;
+    bottom: -2rem;
+    right: 20%;
+}
+.wash1{
+    height: 40vw;
+    width: 40vw;
+    border-radius: 50%;
+    border: none;
+    z-index: -1;
+}
+.wash2{
+    width: 25vw;
+    height: 25vw;
+    border-radius: 50%;
+    border: .8rem solid #fff;
+    position: absolute;
+    bottom: -10rem;
+    right: 50%;
+}
+.wash3{
+    width: 10vw;
+    height: 10vw;
+    border-radius: 50%;
+    border: .8rem solid var(--bg-red);
+    position: absolute;
+    bottom: -9rem;
+    right: 10%;
+
+}
+/* left section end  */
+
+/* right section start  */
+
+/* right section end  */
+.innovative-car-right{
+    flex-basis: 30%;
+    margin-bottom: 3rem;
+}
+.innovative-car-right div:nth-child(1),.innovative-car-right div:nth-child(3){
+    font-size: 5vw;
+    font-weight: 900;
+}
+.innovative-car-right div:nth-child(2){
+    font-size: 4.5vw;
+    font-weight: 900;
+    color: var(--bg-red);
+    line-height: 0.5;
+
+}
+.innovative-car-right p{
+    font-size: 1.5vw;
+    font-weight: 600;
+    color: var(--txt-gray);
+}
+ion-icon {
+    color: var(--bg-red);
+
+  }
+.right-tick{
+    font-size: 1.4vw;
+    line-height: 1.7;
+    font-weight: 600;
+    font-style: italic;
+}
+.btn-bookNow{
+    background-color: #000;
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 1rem 0;
+    width: 50%;
+    margin-top: 2rem;
+    font-size: 1.5vw;
+    letter-spacing: .1rem;
+}
+/* innovative car system end  */
+
+/* information using number start */
+.main-info{
+    background-color: #292d33;
+    background-image: url(blob.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.info-num{
+    margin-top: 20rem;
+    
+}
+
+.info-num1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-top: 8rem;
+    overflow: hidden;
+
+}
+.sample{
+    width: 34rem;
+    height: 34rem;
+    background-color: #fff;
+
+}
+.info-num2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 5rem;
+    padding-bottom: 8rem;
+
+}
+.sample1{
+    width: 34rem;
+    height: 34rem;
+    background-color: #fff;
+}
+.sample-child{
+    text-align: center;
+    padding: 2rem;
+}
+.sample-child div:nth-child(1){
+    font-size: 10rem;
+    font-weight: 900;
+}
+.sample-child div:nth-child(2){
+    /* font-size: 1.5vw; */
+    font-size: 2rem;
+    margin-bottom: 2rem;
+
+}
+.sample-child div:nth-child(3){
+    font-size: 3rem; 
+    text-decoration: underline;
+    text-underline-position:below;
+    padding-bottom: 2rem;
+
+}
+.sample-child div:nth-child(4){
+    font-size: 1rem;
+    text-decoration: underline;
+    text-underline-position:below;
+ 
+}
+/* information using number end   */
+
+/* About section start  */
+.about{
+    background-color: var(--bg-red);
+    padding: 5rem 0;
+}
+.about-section{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+}
+.about-section div:nth-child(1){
+    font-size: 10rem;
+    font-weight: 600;
+}
+.about-section div:nth-child(2){
+    width: 60%;
+    font-size: 2rem;
+    margin-bottom: 3rem;
+
+}
+.about-section div:nth-child(3) button{
+    padding: 1rem 0;
+    font-size: 2rem;
+    width: 20rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: var(--bg-red);
+    border: 0;
+    outline: 0;
+}
+
+/* About section end  */
+
+/* Automatic car wash service start  */
+.automatic-carWash{
+    background-color: var(--bg-blck);
+}
+.automatic-section{
+    display: flex;
+    justify-content: space-between;
+    padding: 6rem 0;
+
+}
+
+/* automatic-section left  start*/
+.automatic-section-left{
+    flex-basis: 40%;
+    position: relative;
+}
+.automatic-section-left div:nth-child(1) img{
+    height: 30vw;
+    width: 30vw;
+    border-radius: 50%;
+}
+
+.automatic-section-left div:nth-child(3){
+    color: white;
+    margin: 6rem 0;
+    font-size: 1.8rem;
+    
+}
+.automatic-section-left div:last-child button{
+    background-color: red;
+    padding:1rem 4rem;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    font-weight: 300;
+    background-color: var(--bg-red);
+    color: #fff;
+    border: none;
+}
+
+
+
+
+/* automatice section left end  */
+/* automatic-section right  start*/
+.automatic-section-right{
+    flex-basis: 40% ;
+}
+.automatic-section-right div:nth-child(1){
+   
+    font-size: 5.5rem;
+    font-weight: 600;
+    color: #fff;
+}
+.automatic-section-right div:nth-child(2){
+    font-size:2rem;
+    color: #fff;
+    text-decoration: underline;
+}
+.automatic-section-right div:nth-child(3) img{
+    border-radius: 50%;
+    width: 40vw;
+    height: 40vw;
+    border: 1rem solid red;
+    margin-top: 10rem;
+}
+/* automatice section right end  */
+
+/* automatic car wash service end  */
+
+/* About company start  */
+.About-company-section{
+    margin-bottom: 22rem;
+}
+.About-company{
+    display: flex;
+    justify-content: space-between;
+    padding: 5rem 0;
+}
+/* about company left section start  */
+.about-company-details{
+    flex-basis: 45%;
+}
+.about-company-details div:nth-child(1){
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: 300;
+    
+}
+.about-company-details div:nth-child(2){
+    font-size: 5rem;
+    font-weight: 600;
+    line-height: 1.2;
+    margin: 2rem 0;
+    
+}
+.about-company-details div:nth-child(2) span{
+    color: var(--bg-red);
+    
+}
+.about-company-details div:nth-child(3){
+    font-size: 2rem;
+    margin: 2rem 0;
+    line-height: 1.3;
+    
+}
+.about-company-details div:nth-child(4){
+    font-size: 2rem;
+    margin-bottom: .5rem;
+    line-height: 1.3;
+    text-transform: uppercase;
+    font-weight: 600;
+    word-spacing: .2rem;
+    letter-spacing: .2rem;
+    
+}
+.about-company-details div:last-child{
+    height: .4rem;
+    width: 30%;
+    background-color: red;
+    line-height: 1;
+
+}
+   
+
+
+
+
+
+/* about company left section end  */
+/* about company right section start */
+.about-company-pic{
+    flex-basis: 45%;
+    position: relative;
+}
+.about-company-pic div:first-child{
+    height: 25vw;
+    width: 25vw;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    border: 4rem solid var(--bg-red);
+}
+
+.about-company-pic div:nth-child(2) img{
+    width: 40rem;
+    height: 40rem;
+    border-radius: 50%;
+    position: absolute;
+    left: 10%;
+    bottom: -10rem;
+}
+.about-company-pic div:nth-child(3) img{
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+    border: 1.5rem solid var(--bg-red);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 40px 50px;
+    position: absolute;
+    bottom: -20rem;
+}
+/* about company right section end  */
+/* About company end  */
+
+/* contact us section start  */
+.main-contact{
+    background-color: var(--bg-blck);
+    
+}
+.contact-circle{
+    padding: 10rem 0;
+    background-image: url(circle.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:75rem;
+    
+}
+.form-section{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.form-section-left{
+    flex-basis: 55%;
+    background-color: #fff;
+    padding: 5rem;
+    
+}
+.form-section-left input[type=text]{
+    width: 15vw;
+    padding: 1rem 2rem;
+    margin-right: 4rem;
+    font-size: 1.2rem;
+    border: .2rem solid rgb(68, 57, 57);
+}
+.form-section-left input[type=date]{
+    width: 33.5vw;
+    padding: 1rem 2rem;
+    margin: 3rem 0;
+    font-size: 2rem;
+    border: .2rem solid rgb(68, 57, 57);
+}
+textarea{
+    width: 90.7%;
+    padding: 1rem;
+    border: .2rem solid rgb(68, 57, 57);
+}
+textarea::placeholder {
+    font-size: 2rem;
+}
+.btn-submit{
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 1rem 5rem;
+    width: 40%;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 2rem;
+}
+
+
+/* form section left end  */
+/* form section right start  */
+
+.form-section-right{
+    flex-basis: 45%;
+    background-color: var(--bg-blck);
+    box-shadow: rgb(12, 13, 13) 0px 20px 30px -10px;
+    padding:4rem 2rem;
+}
+.form-section-right div:nth-child(1),.form-section-right div:nth-child(2){
+    font-size: 10rem;
+    color: #fff;
+    line-height: 1.3;
+    font-weight: 900;
+}
+.form-section-right div:nth-child(2){
+    text-align: end;
+    border-bottom: .5rem solid rgb(235, 232, 232);
+}
+    
+/* form right section end  */
+.last-para{
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    padding-bottom: 5rem;
+}
+/* contact us section end  */
+footer{
+    background-color: rgb(67, 66, 66);
+    text-align: center;
+    font-size: 3rem;
+    padding: 4rem 0;
+    color: whitesmoke;
+}
+/* box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px; */
+
